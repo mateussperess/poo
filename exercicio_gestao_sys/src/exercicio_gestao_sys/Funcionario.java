@@ -36,6 +36,16 @@ public abstract class Funcionario {
 		this.nome = nome;
 	}
 	
-	public abstract void exibirInformacoes();
-	public abstract void baterPonto();
+	public void baterPonto() {
+		System.out.println(this.getNome() + " bateu ponto.");
+		System.out.println("Ponto batido como: " + this.getCargo());
+	}
+	
+	public void exibirInformacoes() {
+		System.out.println("====== " +this.getCargo().toUpperCase()+ " ======");
+		System.out.println("Nome: " + this.getNome());
+		System.out.println("Cargo: " + this.getCargo());
+		System.out.println("Nível: " + this.getNivel().getDescricao());
+	}
+	
 }

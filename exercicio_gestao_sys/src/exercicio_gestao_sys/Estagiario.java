@@ -7,31 +7,17 @@ public class Estagiario extends Funcionario implements Codifica, CriaPrototipos,
 	}
 
 	@Override
-	public void exibirInformacoes() {
-		System.out.println("==== Estagiário ====");
-		System.out.println("Nome: " + this.getNome());
-		System.out.println("Cargo: " + this.getCargo());
-		System.out.println("Nível: " + this.getNivel().getDescricao());	
-	}
-
-	@Override
-	public void baterPonto() {
-		System.out.println(this.getNome() + " bateu ponto.");
-		System.out.println("Ponto batido como: " + this.getCargo());	
-	}
-
-	@Override
 	public void participaDeUX() {
-		System.out.println(this.getNome() + " está participando dos processos UX.");
+		System.out.println(this.getNome() + " está fazendo parte dos processos UX.");
 	}
 
 	@Override
 	public void criaPrototipos() {
-		System.out.println(this.getNome() + " está criando protótipos.");
+		System.out.println(this.getNome() + " a criar protótipos.");
 	}
 
 	@Override
 	public void codificar() {
-		System.out.println(this.getNome() + " está codificando novas features.");
+		System.out.println(this.getNome() + " está desenvolvendo novas features.");
 	}
 }

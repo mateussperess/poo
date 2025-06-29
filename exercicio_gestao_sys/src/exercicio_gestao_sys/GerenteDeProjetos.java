@@ -7,23 +7,13 @@ public class GerenteDeProjetos extends Funcionario implements GerenciaProjetos, 
 	}
 
 	@Override
-	public void exibirInformacoes() {
-		// TODO Auto-generated method stub
-	}
-
-	@Override
-	public void baterPonto() {
-		// TODO Auto-generated method stub
-	}
-
-	@Override
 	public void organizaSprint() {
-		// TODO Auto-generated method stub
+		System.out.println(this.getNome() + " está se preparando para organizar um Sprint");
 	}
 
 	@Override
 	public void gerenciaProjetos() {
-		// TODO Auto-generated method stub
+		System.out.println(this.getNome() + " está gerenciando os projetos em andamento");
 	}
 
 }
