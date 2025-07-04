@@ -19,7 +19,7 @@ public class Main {
 			pedidoEntrega.adicionarProduto(cafe);
 			System.out.println("Total do pedido para entrega: R$" + pedidoEntrega.calcularTotal());
 			
-			// PedidoLocal testePedidoLocal = new PedidoLocal("003", new ArrayList<>());
+			// PedidoLocal testePedidoLocal	 = new PedidoLocal("003", new ArrayList<>());
 			// bolo = null;
 			// testePedidoLocal.adicionarProduto(bolo); // caso de exception
 			

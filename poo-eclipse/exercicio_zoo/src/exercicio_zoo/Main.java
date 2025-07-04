@@ -3,8 +3,8 @@ package exercicio_zoo;
 public class Main {
 	
 	public static void main(String[] args) {
-		Leao leaoMufasa = new Leao("Mufasa");
-		Canguru canguruMarcio = new Canguru("Márcio");
+		Animal leaoMufasa = new Leao("Mufasa");
+		Animal canguruMarcio = new Canguru("Márcio");
 		
 		leaoMufasa.alimentar();
 		canguruMarcio.alimentar();
